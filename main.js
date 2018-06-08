@@ -1,11 +1,13 @@
 alert("Введите температуру в градусах Цельсия");
 var tCelsium=prompt(),
     tFarenheit=9/5*tCelsium+32,
-    a=66666666,b=3333, admin, name, myTest;
+    a,b, admin, name, myTest;
 alert("Температура в Фаренгейтах="+tFarenheit);
 alert("Допустим у нас есть переменные a и b:");
-prompt("a=",a);
-prompt("b=",b);
+a=prompt("a=");
+b=prompt("b=");
+a=parseInt(a);
+b=parseInt(b);
 b=a+b;
 a=b-a;
 b=b-a;
