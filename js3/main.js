@@ -31,7 +31,7 @@ even(30);
 document.write("<br>");
 
 
-for (i=1; i<=10; document.write(i++)) {}
+for (i=1; i<=9; document.write(i++)) {}
 
 var x="x";
 for (i=1; i<=20; i++) {
