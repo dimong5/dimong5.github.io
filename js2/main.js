@@ -81,4 +81,4 @@ console.log(null==0); // сравнение null и 0 вернет false, т.к.
 function power(val, pow) {
     return (pow != 1) ? val*power(val, pow-1) : val;
 }
-console.log(power(2,15));
+console.log(power(2,10));
