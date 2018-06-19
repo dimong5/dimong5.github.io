@@ -1,5 +1,5 @@
 
-var i=2,j,k;
+var i=0,j,k;
 
 while (i<=100) {
     j=1;
