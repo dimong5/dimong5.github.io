@@ -21,6 +21,7 @@ function chess() {
     letter.style.justifyContent = "center";
 
 
+
     upperRow.style.display = "flex";
     upperRow.style.justifyContent = "space-between";
     upperRow.style.flexDirection = "row";

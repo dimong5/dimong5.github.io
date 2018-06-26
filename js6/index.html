@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="common_picture">
+        <div class="big_pic">
+
+        </div>
+        <img id="picLeft" src="img/1_small.jpg" alt="" class="small_pic">
+        <img id="picCenter" src="img/2_small.jpg" alt="" class="small_pic">
+        <img id="picRight" src="img/3_small.jpg" alt="" class="small_pic">
+    </div>
+</div>
+<script>
+    var picLeft = document.getElementById('picLeft'),
+        picCenter = document.getElementById('picCenter'),
+        picRight = document.getElementById('picRight');
+
+    picLeft.addEventListener("mouseover", function () {
+        return checkPic(this.src)
+    });
+    picCenter.addEventListener("mouseover", function () {
+        return checkPic(this.src)
+    });
+    picRight.addEventListener("mouseover", function () {
+        return checkPic(this.src)
+    });
+
+    function checkPic(t) {
+        console.log(t);
+        var split = t.split("/");
+        var tempStr = (split[split.length - 1]);
+        console.log(parseInt(tempStr));
+        var bigPic = document.getElementsByClassName("big_pic");
+        var imgNew = document.createElement('img');
+        //img.src=" ";
+        imgNew.src = "img/" + parseInt(tempStr) + ".jpg";
+        imgNew.style.width = "380px";
+        imgNew.style.height = "380px";
+        bigPic[0].replaceChild(imgNew, bigPic[0].childNodes[0]);
+        imgNew.onerror = function () {
+            var errorText = document.createElement("span");
+            errorText.style.color = "red";
+            errorText.style.alignSelf = "center";
+            errorText.style.fontSize = "30px";
+            errorText.innerText ="Error!";
+            bigPic[0].replaceChild(errorText, bigPic[0].childNodes[0]);
+        }
+    }
+</script>
+
+</body>
+</html>

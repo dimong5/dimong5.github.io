@@ -1,0 +1,32 @@
+.container {
+    width:800px;
+    height:1000px;
+    background-color: snow;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+.common_picture {
+    width:400px;
+    height: 550px;
+    /*border: 1px solid black;*/
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.big_pic {
+    width:380px;
+    height: 380px;
+    /*border: 1px solid black;*/
+    display:flex;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+.small_pic{
+    display: block;
+    width: 100px;
+    height: 100px;
+    /*border: 1px solid black;*/
+    margin: 10px;
+}
