@@ -284,17 +284,14 @@
 .footer #name {
   display: block;
 }
-@media (max-width: 13000px) {
-  .container-fluid {
-    max-width: 1310px;
+@media screen and (max-width: 991.98px) {
+  .common_wrapper {
+    max-width: 750px;
   }
 }
-.container-fluid {
-  max-width: 1310px;
-}
-@media (max-width: 1199px) {
-  .container-fluid {
-    max-width: 750px;
+@media screen and (max-width: 1199.98px) {
+  .common_wrapper {
+    max-width: 1280px;
   }
 }
 /*# sourceMappingURL=style.css.map */
