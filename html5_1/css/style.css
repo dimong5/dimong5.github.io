@@ -17,7 +17,6 @@
   color: #ffffff;
 }
 .head_wrapper .text_left ul {
-  margin-left: 30px;
   list-style-image: url("../img/check icon.png");
 }
 .head_wrapper .text_left ul li {
@@ -80,6 +79,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 30px 0px 0px 0px;
+  padding: 0;
 }
 .dignity_and_pluses ul li {
   list-style-type: none;
@@ -163,6 +163,7 @@
   height: 75px;
   background-color: #445161;
   border-radius: 50%;
+  overflow: hidden;
   margin: 0 16px 0 0;
 }
 .reviews article .triangle {
@@ -271,6 +272,7 @@
 }
 .footer {
   background-color: #445161;
+  padding: 50px;
 }
 .footer h2 {
   font-family: Arial;
@@ -280,18 +282,89 @@
   line-height: 36px;
   display: block;
   text-align: center;
+  color: #ffffff;
+  margin-bottom: 31px;
 }
-.footer #name {
+.footer .formWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+}
+.footer .formWrapper form input:not(:last-child),
+.footer .formWrapper form textarea {
+  width: 100%;
+  margin-bottom: 21px;
+  font-family: Arial;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 4px;
+  padding: 14px 0 14px 10px;
+  outline: none;
+}
+.footer .formWrapper form textarea {
+  height: 170px;
+  resize: none;
+}
+.footer .formWrapper form input:last-child {
+  background-color: #ffffff;
+  font-family: Arial;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  width: 140px;
+  height: 40px;
+  border-radius: 4px;
   display: block;
+  margin: auto;
+}
+.footer .social ul {
+  list-style-type: none;
+}
+.footer .social ul li {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer .social ul li:not(:last-child) {
+  margin-bottom: 29px;
+  padding-left: 30px;
+}
+.footer .social ul li:nth-child(1) {
+  background: url("../img/skype icon.png") no-repeat;
+}
+.footer .social ul li:nth-child(2) {
+  background: url("../img/icq icon.png") no-repeat;
+}
+.footer .social ul li:nth-child(3) {
+  background: url("../img/email icon.png") no-repeat;
+}
+.footer .social ul li:nth-child(4) {
+  background: url("../img/phone icon.png") no-repeat;
+}
+.common_wrapper {
+  margin: 0 auto;
 }
 @media screen and (max-width: 991.98px) {
+  .social {
+    margin-top: 40px;
+  }
   .common_wrapper {
-    max-width: 750px;
+    width: 750px;
+  }
+  .common_wrapper .container-fluid .buy_it_now .row .col-auto:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 1199.98px) {
+@media screen and (min-width: 992.98px) {
   .common_wrapper {
-    max-width: 1280px;
+    width: 1310px;
   }
 }
 /*# sourceMappingURL=style.css.map */
