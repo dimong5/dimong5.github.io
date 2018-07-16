@@ -10,22 +10,22 @@
   bottom: 1px solid black;
 }
 .head_wrapper .text_left h1 {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-size: 60px;
   font-weight: 400;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
   color: #ffffff;
 }
 .head_wrapper .text_left ul {
   list-style-image: url("../img/check icon.png");
 }
 .head_wrapper .text_left ul li {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #ffffff;
   font-size: 20px;
   font-weight: 400;
   line-height: 36px;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
 }
 .head_wrapper .col {
   border: 1px solid black;
@@ -44,14 +44,14 @@
   width: 649px;
 }
 .about_your_product .text_left_about h2 {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #445161;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
 }
 .about_your_product .text_left_about p {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #333333;
   font-size: 16px;
   font-weight: 400;
@@ -67,7 +67,7 @@
   padding: 50px;
 }
 .dignity_and_pluses h2 {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #445161;
   font-size: 30px;
   font-weight: 400;
@@ -78,34 +78,34 @@
 .dignity_and_pluses ul {
   display: flex;
   flex-wrap: wrap;
-  margin: 30px 0px 0px 0px;
+  margin: 30px 0 0 0;
   padding: 0;
 }
 .dignity_and_pluses ul li {
   list-style-type: none;
   background: url("../img/plus.png") no-repeat;
   padding-left: 45px;
-  margin: 0px 23px 10px 0px;
+  margin: 0 23px 10px 0;
   width: 567px;
   box-sizing: border-box;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #333333;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
 .screenshots {
-  padding: 50px 0px 50px 50px;
+  padding: 50px 0 50px 50px;
 }
 .screenshots h2 {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #445161;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
   display: block;
   text-align: center;
-  margin: 0px 0px 35px;
+  margin: 0 0 35px;
 }
 .screenshots .wrapper_screenshots {
   display: flex;
@@ -114,17 +114,17 @@
 }
 .screenshots article {
   width: 564px;
-  margin: 0px 20px 30px 0px;
+  margin: 0 20px 30px 0;
 }
 .screenshots article h3 {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #445161;
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
 }
 .screenshots article p {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #333333;
   font-size: 16px;
   font-weight: 400;
@@ -142,21 +142,19 @@
   padding: 50px;
 }
 .reviews h2 {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #445161;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
   display: block;
   text-align: center;
+  margin-bottom: 30px;
 }
 .reviews div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-.reviews article {
-  width: 582px;
 }
 .reviews article .picture_reviews {
   width: 75px;
@@ -164,7 +162,7 @@
   background-color: #445161;
   border-radius: 50%;
   overflow: hidden;
-  margin: 0 16px 0 0;
+  margin: 0 8px 0 16px;
 }
 .reviews article .triangle {
   margin-top: 15px;
@@ -174,22 +172,23 @@
   border-color: transparent #ececec transparent transparent;
   border-style: solid;
 }
-.reviews article p {
-  font-family: Arial;
+.reviews article .pReviewWrapper {
+  padding: 16px 10px 16px 16px;
+  background-color: #ececec;
+  width: 483px;
+  margin-bottom: 20px;
+}
+.reviews article .pReviewWrapper p {
+  font-family: Arial, sans-serif;
   color: #333333;
   font-size: 14px;
   font-style: italic;
   line-height: 18px;
-  display: block;
-  width: 483px;
-  height: 121px;
-  background-color: #ececec;
-  padding: 16px 20px 16px 16px;
 }
-.reviews article p span {
+.reviews article .pReviewWrapper p span {
   margin-top: 15px;
   display: block;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #989898;
   font-size: 14px;
   font-weight: 400;
@@ -199,7 +198,7 @@
   padding: 50px;
 }
 .buy_it_now h2 {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #445161;
   font-size: 30px;
   font-weight: 400;
@@ -218,7 +217,7 @@
 .buy_it_now .row .standart .category,
 .buy_it_now .row .premium .category,
 .buy_it_now .row .lux .category {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
@@ -230,7 +229,7 @@
 .buy_it_now .row .standart .price,
 .buy_it_now .row .premium .price,
 .buy_it_now .row .lux .price {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #445162;
   font-size: 40px;
   font-weight: 400;
@@ -243,7 +242,7 @@
 .buy_it_now .row .standart .advantages,
 .buy_it_now .row .premium .advantages,
 .buy_it_now .row .lux .advantages {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
@@ -263,7 +262,7 @@
   width: 260px;
   padding: 13px;
   border-radius: 5px;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #445161;
   font-size: 18px;
   font-weight: 700;
@@ -275,7 +274,7 @@
   padding: 50px;
 }
 .footer h2 {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #445161;
   font-size: 30px;
   font-weight: 400;
@@ -295,7 +294,7 @@
 .footer .formWrapper form textarea {
   width: 100%;
   margin-bottom: 21px;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #445162;
   font-size: 16px;
   font-weight: 400;
@@ -310,7 +309,7 @@
 }
 .footer .formWrapper form input:last-child {
   background-color: #ffffff;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #445162;
   font-size: 16px;
   font-weight: 700;
@@ -326,7 +325,7 @@
   list-style-type: none;
 }
 .footer .social ul li {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
@@ -347,6 +346,21 @@
 }
 .footer .social ul li:nth-child(4) {
   background: url("../img/phone icon.png") no-repeat;
+}
+.underFooter {
+  background-color: #ffffff;
+  width: 100%;
+}
+.underFooter span {
+  display: block;
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  text-align: center;
+  padding: 10px 0 10px 0;
 }
 .common_wrapper {
   margin: 0 auto;
