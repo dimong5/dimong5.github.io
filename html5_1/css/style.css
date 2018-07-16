@@ -372,6 +372,17 @@
   .common_wrapper {
     width: 750px;
   }
+  .common_wrapper .container-fluid .buy_it_now .row .standart,
+  .common_wrapper .container-fluid .buy_it_now .row .premium,
+  .common_wrapper .container-fluid .buy_it_now .row .lux {
+    width: 600px;
+  }
+  .common_wrapper .container-fluid .buy_it_now .row .standart ol,
+  .common_wrapper .container-fluid .buy_it_now .row .premium ol,
+  .common_wrapper .container-fluid .buy_it_now .row .lux ol {
+    font-size: large;
+    line-height: 36px;
+  }
   .common_wrapper .container-fluid .buy_it_now .row .col-auto:not(:last-child) {
     margin-bottom: 30px;
   }
