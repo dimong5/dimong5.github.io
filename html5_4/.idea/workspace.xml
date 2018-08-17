@@ -19,8 +19,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-456">
-                  <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+                <state relative-caret-position="200">
+                  <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
                   <folding>
                     <element signature="e#12279#12285#0" expanded="true" />
                     <element signature="e#12286#12292#0" expanded="true" />
@@ -50,8 +50,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../html5_3/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="255" column="61" lean-forward="true" selection-start-line="255" selection-start-column="24" selection-end-line="255" selection-end-column="61" />
+                <state relative-caret-position="100">
+                  <caret line="5" column="115" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="115" />
                 </state>
               </provider>
             </entry>
@@ -89,6 +89,7 @@
       <find>padd</find>
       <find>border</find>
       <find>bast</find>
+      <find>stan</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -99,8 +100,8 @@
         <option value="$PROJECT_DIR$/style.less" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/variables.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -215,12 +216,12 @@
       <workItem from="1534032340005" duration="459000" />
       <workItem from="1534369850432" duration="5307000" />
       <workItem from="1534408310971" duration="1741000" />
-      <workItem from="1534410446528" duration="23675000" />
+      <workItem from="1534410446528" duration="24328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230889000" />
+    <option name="totallyTimeSpent" value="231542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -541,20 +542,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/для студентов html5-css3 3 урок/для студентов html5-css3 3 урок/решение домашнего задания урок 3 курс html5-css3/решение домашнего задания урок 3 курс html5-css3/styles/index_adaptive.less" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="141" column="37" lean-forward="true" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../html5_3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="255" column="61" lean-forward="true" selection-start-line="255" selection-start-column="24" selection-end-line="255" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
@@ -569,10 +556,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../html5_3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="115" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="141" column="37" lean-forward="true" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="200">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
           <folding>
             <element signature="e#12279#12285#0" expanded="true" />
             <element signature="e#12286#12292#0" expanded="true" />
