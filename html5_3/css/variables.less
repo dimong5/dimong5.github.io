@@ -1,0 +1,166 @@
+@colorCommonBlue: rgb(68, 81, 97);
+@colorCommonWhite: rgb(255, 255, 255);
+@colorCommonGrey: rgb(245, 245, 245);
+@colorTextWhite: #ffffff;
+@colorTextBlue: #445161;
+@colorTextBlack: #3333;
+@borderTemp: 1px solid black;
+@widthCommon: 1280px;
+@marginRightBlocks: 50px 50px 50px 0;
+@marginLeftText: 50px 0 50px 50px;
+
+.respond-to(@device, @content) {
+  & when (@device = phones) {
+    @media all and (max-width: 479px) { @content(); }
+  }
+  & when (@device = wide-phones) {
+    @media all and (min-width: 480px) and (max-width: 767px) { @content(); }
+  }
+  & when (@device = tablets) {
+    @media all and (min-width: 768px) and (max-width: 991px) { @content(); }
+  }
+  & when (@device = small-desktops) {
+    @media all and (min-width: 992px) and (max-width: 1199px) { @content(); }
+  }
+  & when (@device = lg-desktops) {
+    @media all and (min-width: 1200px) and (max-width: 1440px) { @content(); }
+  }
+  & when (@device = xlg-desktops) {
+    @media all and (min-width: 1441px) { @content(); }
+  }
+  & when (@device = small-wrapper) {
+    @media all and (max-width: 991px) { @content(); }
+  }
+  & when (@device = medium-wrapper) {
+    @media all and (max-width: 1199px) { @content(); }
+  }
+  & when (@device = large-wrapper) {
+    @media all and (max-width: 1199px) { @content(); }
+  }
+
+
+}
+
+.smallBlackText() {
+  font-family: Arial, sans-serif;
+  color: @colorTextBlack;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  .respond-to(small-wrapper, {
+    font-size: 22px;
+    line-height: 22px;
+  });
+
+}
+
+.h2Blue() {
+  font-family: Arial, sans-serif;
+  color: @colorTextBlue;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.h3Blue() {
+  font-family: Arial, sans-serif;
+  color: @colorTextBlue;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.smallTextItalic() {
+  font-family: Arial, sans-serif;
+  color: @colorTextBlack;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 18px;
+  .respond-to(small-wrapper, {
+    font-size: 24px;
+    line-height: 28px;
+  });
+
+}
+
+.smallTextSign() {
+  font-family: Arial, sans-serif;
+  color: #989898;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.mediumTextName() {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  display: block;
+  text-align: center;
+  padding: 16px;
+}
+
+.mediumTextPrice() {
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 30px;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  text-align: center;
+  padding: 18px;
+}
+
+.mediumTextAdvantages() {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 20px 38px 20px 30px;
+
+}
+
+.buttonStyleBuy() {
+  width: 260px;
+  padding: 13px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  margin: 20px;
+}
+
+.textForm() {
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  .respond-to(small-wrapper, {
+    font-size: 24px;
+    line-height: 28px;
+  });
+}
+
+.textSocial() {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.textUnderFooter() {
+  font-family: Arial, sans-serif;
+  color: #445162;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+}

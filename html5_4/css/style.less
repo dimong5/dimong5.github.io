@@ -1,0 +1,712 @@
+@import "variables";
+
+@colorDarkYellow: #ffc61a;
+
+* {
+  //margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  display: grid;
+  grid-template-columns: 100%;
+
+  grid-template-rows: auto;
+  //max-width: 1600px;
+  //min-width: 1600px;
+  width: 1630px;
+  margin: 0 auto;
+
+}
+
+header {
+  background-image: url("../img/Layer 3.jpg");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  width: 100%;
+  height: 739px;
+  position: relative;
+  .logo {
+    width: 170px;
+    position: absolute;
+    top: 44px;
+    left: 81px;
+    span {
+      padding: 0;
+      margin: 0;
+    }
+    span:nth-child(1) {
+      .logoCab;
+    }
+    span:nth-child(2) {
+      margin-left: -3px;
+      .logoHub;
+    }
+    span:last-child {
+      display: block;
+      margin-top: -10px;
+      .logoSlogan;
+    }
+  }
+  .blockMenu {
+    ul {
+      position: absolute;
+      top: 50px;
+      left: 822px;
+      width: 720px;
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+
+    }
+    ul li a {
+      text-decoration: none;
+    }
+    ul li a {
+      .liMenu;
+    }
+    ul li a:hover {
+      .liMenuFocused;
+
+    }
+  }
+  .contactsCenter {
+    position: absolute;
+    top: 158px;
+    left: 536px;
+    width: 532px;
+    & * {
+      padding: 0;
+    }
+    .bookNow {
+      .bookNow;
+      display: block;
+
+    }
+    .phoneBig {
+      display: block;
+      .phoneNumber;
+      padding: 0;
+    }
+    .website {
+      .website;
+      display: block;
+    }
+  }
+
+  .car {
+    position: absolute;
+    top: calc(50%);
+    left: calc(20%);
+
+    background-image: url("../img/Place Car Image here.png");
+    //background-size: cover;
+    //background-position: center center;
+
+    z-index: 2;
+    width: 826px;
+    height: 484px;
+  }
+}
+
+main {
+  width: 100%;
+  background-color: #ffc61a;
+  .infoAndForm {
+    display: grid;
+
+    grid-template-columns: 558px 422px;
+    margin-top: 150px;
+    margin-left: 218px;
+    grid-column-gap: 214px;
+    .info {
+      width: 100%;
+      //border: 1px solid black;
+      & > *:not(:last-child) {
+        display: block;
+      }
+      span:nth-child(1) {
+        .bestInCity;
+        margin-bottom: 26px;
+      }
+      span:nth-child(2) {
+        .trustedCabServices;
+        margin-bottom: 40px;
+      }
+      p {
+        .pAbout();
+        margin-bottom: 60px;
+      }
+      a {
+        text-decoration: none;
+        display: flex;
+        width: 166px;
+        height: 50px;
+        //border: 1px solid black;
+        background-color: #000000;
+        border-radius: 9px;
+
+      }
+      a p.buttonReadMore {
+        .readMore;
+        text-align: center;
+        margin: auto;
+      }
+    }
+
+    .form form {
+      width: 100%;
+      margin-bottom: 80px;
+      //padding: 26px 22px 18px 34px;
+
+      background-color: #ffffff;;
+      //border: 1px solid black;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 77px repeat(4, 70px) 80px;
+      div {
+        //border: 1px solid black;
+        &:nth-child(1) {
+          grid-column-start: 1;
+          grid-column-end: -1;
+          height: 77px;
+          background-color: #100f0f;
+          display: flex;
+          justify-content: start;
+          span {
+
+            align-self: center;
+            &:nth-child(1) {
+              .bookACab;
+              margin-left: 26px;
+            }
+            &:nth-child(2) {
+              .bookACab;
+              margin-left: 5px;
+              color: #ffc61a;
+            }
+          }
+        }
+        &:nth-child(8) {
+          //border-bottom: 2px solid #e4e4e4;;
+        }
+        input {
+
+        }
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7) {
+          input {
+            width: 80%;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid #e4e4e4;
+            margin-top: 30px;
+
+            margin-left: 34px;
+            &::placeholder {
+              font-family: Lato;
+              color: rgba(0, 0, 0, 0.68);
+              font-size: 20px; /* Приближение из-за подстановки шрифтов */
+              font-weight: 900;
+            }
+          }
+
+        }
+
+        &:nth-child(8) {
+          grid-column-start: 1;
+          grid-column-end: -1;
+          input {
+            width: 85%;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid #e4e4e4;
+            margin-top: 30px;
+            margin-left: 34px;
+            &::placeholder {
+              font-family: Lato;
+              color: rgba(0, 0, 0, 0.68);
+              font-size: 20px; /* Приближение из-за подстановки шрифтов */
+              font-weight: 900;
+            }
+          }
+        }
+        &:nth-child(9) {
+          display: flex;
+          grid-column-start: 1;
+          grid-column-end: -1;
+          padding-top: 20px;
+          padding-bottom: 10px;
+
+          input {
+            margin: auto;
+            .readMore;
+            padding: 0;
+            background-color: #fff;
+            background-color: #000000;
+            border-radius: 9px;
+            width: 376px;
+            height: 30px;
+            border: none;
+            outline: none;
+
+          }
+
+        }
+        input[placeholder="Phone"], input[placeholder="Time"], input[placeholder="End"] {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+}
+
+.carOptions {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #f5f4f2;
+  border-top: none;
+  border-bottom: none;
+  padding-bottom: 77px;
+  h3 {
+    .h3Our;
+    display: block;
+    margin-top: 63px;
+
+  }
+  h2 {
+    .h2Tariffs;
+    display: block;
+    margin-bottom: 133px;
+  }
+
+  .carSelectWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 0 auto;
+
+    width: 80%;
+
+    article {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      .carClass;
+      .triangle {
+        display: none;
+      }
+      img {
+        display: none;
+      }
+      .carSmall {
+
+        background-image: url("../img/carSmall.png");
+        //background-repeat: no-repeat;
+        position: absolute;
+        width: 100%;
+        height: 178px;
+        //border: 1px solid black;
+        top: -80px;
+      }
+      &:hover {
+        background-color: #ffc61a;
+        .triangle {
+          display: inherit;
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 0 74px 74px;
+          border-color: transparent transparent #1b1b1b transparent;
+          bottom: 0;
+          right: 0;
+
+        }
+        img {
+          display: inherit;
+          position: absolute;
+          color: black;
+
+          bottom: 7px;
+          right: 7px;
+          width: 28px;
+          height: 28px;
+          z-index: 3;
+        }
+
+        span {
+          color: rgb(0, 0, 0);
+        }
+        button {
+
+          background-color: #1b1b1b;
+          p {
+            color: white;
+          }
+        }
+      }
+      h4 {
+        .h4carClass;
+        margin: 0 auto;
+        margin-top: 124px;
+      }
+      p {
+        .pCarClass;
+        margin: 31px 35px 35px 35px;
+      }
+      span {
+        .spanCarClass;
+      }
+
+      button {
+        .buttonReadMore;
+      }
+
+    }
+  }
+}
+
+.weDoBest {
+  background-image: url(../img/PLaceBGimage.jpg);
+  height: 753px;
+  padding-top: 80px;
+  h3 {
+    .h3Our;
+    color: @yellow;
+  }
+  h2 {
+    .h2Tariffs;
+    color: @white;
+    margin-bottom: 100px;
+  }
+
+  .advantagesWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 232px;
+    grid-row-gap: 84px;
+    article {
+      display: grid;
+      grid-template-columns: 81px 366px;
+      grid-column-gap: 34px;
+      .circle {
+        width: 81px;
+        height: 81px;
+        border-radius: 50%;
+        background-color: @yellow;
+        display: flex;
+        img {
+          display: block;
+          margin: auto;
+        }
+      }
+      .contentAdvantages {
+        h3 {
+          .h3Advantages;
+        }
+        p {
+          .pAdvantages;
+        }
+      }
+    }
+
+  }
+  .buttonAdvantages {
+    display: flex;
+
+    margin: auto;
+    button {
+      .buttonReadMore;
+    }
+
+  }
+}
+
+.app {
+  height: 650px;
+  background-image: url(../img/App_Screen.png);
+  background-repeat: no-repeat;
+  background-position: right 20% bottom;
+  border: 1px solid #f5f4f2;
+  border-top: none;
+  border-bottom: none;
+  h3 {
+    .h3Our;
+    color: @yellow;
+    margin-top: 65px;
+  }
+  h2 {
+    .h2Tariffs;
+    color: @black;
+    margin-bottom: 41px;
+  }
+  .appInfo {
+    width: 440px;
+    margin-left: 330px;
+    & p:nth-child(1) {
+      .downloadTheCab;
+      margin-bottom: 28px;
+    }
+    P:nth-child(2) {
+      .downloadTheCabUnder;
+      margin-bottom: 63px;
+    }
+    div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+
+      button {
+        width: 210px;
+        height: 65px;
+        background-color: black;
+        border-radius: 35px;
+        border: none;
+        outline: none;
+      }
+      button:nth-child(1) {
+        background-image: url(../img/google_play.jpg);
+        background-position: center center;
+      }
+      button:nth-child(2) {
+        background-image: url(../img/app_store.jpg);
+        background-position: center center;
+      }
+    }
+  }
+}
+
+.reviews {
+  background-image: url(../img/faces.jpg);
+
+  height: 610px;
+
+  h3 {
+    .h3Our;
+    margin-top: 110px;
+  }
+  h2 {
+    .h2Tariffs;
+    margin-bottom: 105px;
+    color: @white;
+  }
+  .reviewMessages {
+    .reviewBlocksWrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 32px;
+
+      .reviewBlock {
+        width: 580px;
+        height: 260px;
+        &:nth-child(1) {
+          justify-self: end;
+        }
+        &:nth-child(2) {
+          .message {
+            .triangleMessage {
+              position: absolute;
+              bottom: -30px;
+              left: 100px;
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 0 30px 30px 0;
+              border-color: transparent @black transparent;
+            }
+            .reviewPerson {
+              .picture {
+                background-image: url(../img/hackerman.jpg);
+              }
+            }
+          }
+        }
+
+        .message {
+          height: 230px;
+          background-color: @black;
+          border-radius: 37px;
+          padding: 42px 69px 0 47px;
+          box-sizing: border-box;
+          position: relative;
+          p {
+            .pReview;
+            padding-left: 10px;
+          }
+          .reviewPerson {
+            display: grid;
+            width: 230px;
+            grid-template-columns: 74px 1fr;
+            grid-column-gap: 18px;
+
+            .picture {
+              width: 74px;
+              height: 74px;
+              border-radius: 50%;
+              background-image: url(../img/mon.jpg);
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+            .namePerson {
+              span:nth-child(1) {
+                .reviewName;
+                display: block;
+                margin-top: 13px;
+
+              }
+              span:nth-child(2) {
+                .reviewPosition;
+
+                padding-left: 9px;
+              }
+            }
+          }
+          .triangleMessage {
+            position: absolute;
+            bottom: -30px;
+            left: 450px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 30px 30px 0 0;
+            border-color: @black transparent transparent transparent;
+          }
+
+        }
+
+      }
+
+    }
+  }
+}
+
+.callUs {
+  background-color: @yellow;
+  h3 {
+    margin-top: 73px;
+    margin-bottom: 32px;
+    .h3Our;
+    color: @black;
+  }
+  h1 {
+    .phoneNumberBig;
+    margin-bottom: 91px;
+  }
+}
+
+footer {
+  background-color: @black;
+  display: flex;
+  flex-wrap: wrap;
+  .footer {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-column-gap: 91px;
+    padding-top: 86px;
+    .aboutCabHub, .download, .contact {
+      h4 {
+        .h4Footer;
+        margin-bottom: 32px;
+      }
+      .yellowStripe {
+        width: 339px;
+        height: 8px;
+        background-color: @yellow;
+        margin-bottom: 40px;
+      }
+      p {
+        .footerFont;
+        width: 332px;
+        margin-bottom: 39px;
+        padding-left: 8px;
+      }
+      .socialIcons {
+        a {
+          margin-right: 18px;
+          i {
+            color: @yellow;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+    .download {
+      a:nth-of-type(1) {
+        padding-bottom: 25px;
+      }
+      a {
+
+        display: block;
+        text-decoration: none;
+        position: relative;
+        span {
+          .osUsers;
+        }
+        i {
+          color: @white;
+          position: absolute;
+          top: -3px;
+          left: 150px;
+        }
+      }
+    }
+    .contact {
+      .footerContactsWrapper {
+        p {
+          margin-bottom: 20px;
+          padding-left: 18px;
+          display: block;
+        }
+        p:nth-child(1) {
+          &:before {
+            font-family: "Font Awesome 5 Free";
+            content: '\f279';
+            margin-right: 10px;
+          }
+        }
+        p:nth-child(2) {
+          &:before {
+            font-family: "Font Awesome 5 Free";
+            content: '\f0f3';
+            margin-right: 10px;
+          }
+        }
+        p:nth-child(3) {
+          &:before {
+            font-family: "Font Awesome 5 Free";
+            content: '\f4ad';
+            margin-right: 10px;
+          }
+        }
+        p:nth-child(4) {
+          &:before {
+            font-family: "Font Awesome 5 Free";
+            content: '\f06e';
+            margin-right: 10px;
+          }
+        }
+
+      }
+    }
+  }
+  .copyRight {
+    display: flex;
+    background-color: @black;
+    width: 100%;
+    span {
+      .copyRight;
+      display: block;
+      margin: auto;
+      padding: 15px;
+    }
+  }
+}

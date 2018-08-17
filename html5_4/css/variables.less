@@ -1,0 +1,296 @@
+@yellow: #ffc61a;
+//@black: #1b1b1b;
+@black: black;
+@white: #ffffff;
+
+.respond-to(@device, @content) {
+  & when (@device = phones) {
+    @media all and (max-width: 479px) { @content(); }
+  }
+  & when (@device = wide-phones) {
+    @media all and (min-width: 480px) and (max-width: 767px) { @content(); }
+  }
+  & when (@device = tablets) {
+    @media all and (min-width: 768px) and (max-width: 991px) { @content(); }
+  }
+  & when (@device = small-desktops) {
+    @media all and (min-width: 992px) and (max-width: 1199px) { @content(); }
+  }
+  & when (@device = lg-desktops) {
+    @media all and (min-width: 1200px) and (max-width: 1440px) { @content(); }
+  }
+  & when (@device = xlg-desktops) {
+    @media all and (min-width: 1441px) { @content(); }
+  }
+  & when (@device = small-wrapper) {
+    @media all and (max-width: 991px) { @content(); }
+  }
+  & when (@device = medium-wrapper) {
+    @media all and (max-width: 1199px) { @content(); }
+  }
+  & when (@device = large-wrapper) {
+    @media all and (max-width: 1199px) { @content(); }
+  }
+
+
+}
+
+.phoneNumber() {
+  font-family: Lato;
+  color:  #ffffff;
+  font-size: 72px;
+  font-weight: 900;
+}
+.bookNow(){
+  font-family: Lato;
+  color:  @colorDarkYellow;
+  font-size: 35.78px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+.website() {
+  font-family: Lato;
+  color:  #ffffff;
+  font-size: 19.86px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 15px;
+}
+.liMenu() {
+  font-family: Lato;
+  color:  #ffffff;
+  font-size: 16.98px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  //text-align: left;
+  padding: 5px 10px;
+}
+.liMenuFocused (){
+  font-family: Lato;
+  color:  #010101;
+  font-size: 16.98px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #ffc61a;
+  padding: 5px 10px;
+  border-radius: 30px;
+  //text-align: left;
+  }
+.logoCab () {
+  font-family: Lato;
+  color:  #ffffff;
+  font-size: 40.35px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  //text-align: center;
+  text-transform: capitalize;
+}
+.logoHub (){
+  font-family: Lato;
+  color:  #daa504;
+  font-size: 40.35px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  //text-align: center;
+  text-transform: uppercase;
+}
+.logoSlogan (){
+  font-family: Lato;
+  color:  #ffffff;
+  font-size: 15.01px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  //text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.bestInCity() {
+  font-family: Lato;
+  color:  #100f0f;
+  font-size: 35.02px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+.trustedCabServices(){
+  font-family: Lato;
+  color:  #100f0f;
+  font-size: 48px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 57px;
+}
+.pAbout(){
+  font-family: Lato;
+  color:  #100f0f;
+  font-size: 18px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  //line-height: 18px;
+}
+.readMore(){
+  font-family: Lato;
+  color:  #ffffff;
+  font-size: 16px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  transform: scaleY(1.7);
+  text-transform: uppercase;
+  }
+.bookACab(){
+  font-family: Lato;
+  color:  #ffffff;
+  font-size: 35px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.h3Our(){
+  font-family: Lato;
+  color:  #ffc61a;
+  font-size: 35px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+}
+.h2Tariffs(){
+  font-family: Lato;
+  color:  rgba(0, 0, 0, 0.68);
+  font-size: 44px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 38px;
+}
+.carClass(){
+  width: 373px;
+  height: 424px;
+  background-color:  #f5f4f2;
+}
+.h4carClass(){
+  font-family: Lato;
+  color:  rgb(0, 0, 0);
+  font-size: 30px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+}
+.pCarClass(){
+  font-family: Lato;
+  color:  #100f0f;
+  font-size: 18px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  display: block;
+}
+.spanCarClass(){
+  font-family: Lato;
+  color:  #ffc61a;
+  font-size: 44px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+  line-height: 38px;
+}
+.h3Advantages(){
+  font-family: Lato;
+  color:  @yellow;
+  font-size: 25.01px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: left;
+
+}
+.pAdvantages(){
+  font-family: Lato;
+  color:  @white;
+  font-size: 18px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  padding-left:3px;
+}
+.buttonReadMore(){
+  border-radius: 7px;
+  background-color: #ffc61a;
+  width: 166px;
+  height: 50px;
+  outline: none;
+  border: none;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 35px;
+
+  p {
+    .readMore;
+    margin: 0 auto;
+    color: black;
+  }
+}
+.downloadTheCab(){
+  font-family: Lato;
+  color:  black;
+  font-size: 25.49px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+}
+.downloadTheCabUnder(){
+  font-family: Lato;
+  color:  #100f0f;
+  font-size: 18px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+}
+.pReview(){
+  font-family: Lato;
+  color:  @white;
+  font-size: 18px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 24px;
+}
+.reviewName(){
+  font-family: Lato;
+  color:  @yellow;
+  font-size: 25px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.reviewPosition(){
+  font-family: Lato;
+  color:  @white;
+  font-size: 18px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.phoneNumberBig() {
+  font-family: Lato;
+  color:  @black;
+  font-size: 75px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 75px;
+}
+.h4Footer(){
+  font-family: Lato;
+  color:  #ffffff;
+  font-size: 25px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 30px;
+}
+.footerFont(){
+  font-family: Lato;
+  color:  @white;
+  font-size: 18px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 22px;
+  display: block;
+}
+.osUsers(){
+  font-family: Lato;
+  color:  #ffc61a;
+  font-size: 20px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 20px;
+}
+.copyRight(){
+  font-family: Lato;
+  color:  #ffffff;
+  font-size: 14px;/* Приближение из-за подстановки шрифтов */
+  font-height:14px;
+  font-weight: 400;
+}

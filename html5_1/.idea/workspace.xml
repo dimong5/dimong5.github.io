@@ -13,43 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53697914">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="40">
-                  <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/style.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="457" column="32" selection-start-line="457" selection-start-column="32" selection-end-line="457" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,8 +36,11 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/index" />
         <option value="$PROJECT_DIR$/style.less" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/css/style.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.less" />
+        <option value="$PROJECT_DIR$/../html5_3/css/variables.less" />
+        <option value="$PROJECT_DIR$/../html5_3/index.html" />
+        <option value="$PROJECT_DIR$/../html5_3/css/style.less" />
       </list>
     </option>
   </component>
@@ -104,14 +71,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="LESS" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/lessc.cmd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../html5_4" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -165,27 +132,32 @@
       <workItem from="1531567919878" duration="3829000" />
       <workItem from="1531596165157" duration="6794000" />
       <workItem from="1531657727250" duration="19652000" />
-      <workItem from="1531729715860" duration="9778000" />
+      <workItem from="1531729715860" duration="11911000" />
+      <workItem from="1532180480885" duration="1473000" />
+      <workItem from="1532188163129" duration="2240000" />
+      <workItem from="1532284039654" duration="321000" />
+      <workItem from="1532284377307" duration="657000" />
+      <workItem from="1532285048481" duration="440000" />
+      <workItem from="1532962368288" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111404000" />
+    <option name="totallyTimeSpent" value="119244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" weight="0.24980484" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5015625" side_tool="true" weight="0.22292994" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5015625" side_tool="true" weight="0.22164948" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4984375" weight="0.32590234" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4984375" weight="0.32474226" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49947917" weight="0.32908705" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49791667" weight="0.110403396" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49791667" weight="0.10996564" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -204,11 +176,11 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4984375" weight="0.32646048" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4984375" weight="0.32474226" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.49791667" visible="true" weight="0.13745704" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49791667" weight="0.10996564" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49947917" weight="0.32908705" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5015625" side_tool="true" weight="0.22292994" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="2" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.22164948" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -221,41 +193,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5270">
-          <caret line="310" column="20" selection-start-line="310" selection-start-column="20" selection-end-line="310" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6086">
-          <caret line="358" lean-forward="true" selection-start-line="358" selection-end-line="358" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="146" column="7" lean-forward="true" selection-start-line="146" selection-start-column="7" selection-end-line="146" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2839">
-          <caret line="167" column="20" lean-forward="true" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3298">
-          <caret line="194" column="1" lean-forward="true" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -511,26 +448,68 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.less" />
     <entry file="file://$PROJECT_DIR$/css/style2.less" />
     <entry file="file://$PROJECT_DIR$/css/style2.css" />
+    <entry file="file://$PROJECT_DIR$/../решение домашнего задания урок 3 курс html5-css3/styles/index_adaptive.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html5_3/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html5_3/css/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" column="24" lean-forward="true" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html5_3/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html5_3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="20">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="457" column="32" selection-start-line="457" selection-start-column="32" selection-end-line="457" selection-end-column="32" />
+        <state relative-caret-position="20">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
