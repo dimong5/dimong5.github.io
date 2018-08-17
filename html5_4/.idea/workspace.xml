@@ -19,7 +19,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
+                <state relative-caret-position="-456">
                   <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
                   <folding>
                     <element signature="e#12279#12285#0" expanded="true" />
@@ -215,12 +215,12 @@
       <workItem from="1534032340005" duration="459000" />
       <workItem from="1534369850432" duration="5307000" />
       <workItem from="1534408310971" duration="1741000" />
-      <workItem from="1534410446528" duration="23187000" />
+      <workItem from="1534410446528" duration="23675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230401000" />
+    <option name="totallyTimeSpent" value="230889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -562,21 +562,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="698" column="5" selection-start-line="698" selection-start-column="5" selection-end-line="698" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="-456">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="e#12279#12285#0" expanded="true" />
             <element signature="e#12286#12292#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="698" column="5" selection-start-line="698" selection-start-column="5" selection-end-line="698" selection-end-column="5" />
         </state>
       </provider>
     </entry>
