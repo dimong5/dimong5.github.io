@@ -1,0 +1,1038 @@
+* {
+  padding: 0;
+}
+.container-fluid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  width: 1630px;
+  min-width: 545px;
+  margin: 0 auto;
+}
+@media all and (max-width: 767px) {
+  .container-fluid {
+    width: 100%;
+    height: 100%;
+  }
+}
+header {
+  background-image: url("../img/Layer 3.jpg");
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  width: 100%;
+  height: 739px;
+  position: relative;
+}
+header .ya-taxi-widget {
+  display: none;
+}
+header .logo {
+  width: 170px;
+  position: absolute;
+  top: 44px;
+  left: 81px;
+}
+header .logo span {
+  padding: 0;
+  margin: 0;
+}
+header .logo span:nth-child(1) {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 40.35px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: capitalize;
+}
+header .logo span:nth-child(2) {
+  margin-left: -3px;
+  font-family: Lato;
+  color: #daa504;
+  font-size: 40.35px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+}
+header .logo span:last-child {
+  display: block;
+  margin-top: -10px;
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 15.01px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+header .blockMenu ul {
+  position: absolute;
+  top: 50px;
+  left: 822px;
+  width: 720px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+header .blockMenu ul li a {
+  text-decoration: none;
+}
+header .blockMenu ul li a {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 16.98px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+header .blockMenu ul li a:hover {
+  font-family: Lato;
+  color: #010101;
+  font-size: 16.98px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #ffc61a;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+header .contactsCenter {
+  position: absolute;
+  top: 158px;
+  left: 536px;
+  width: 532px;
+}
+header .contactsCenter * {
+  padding: 0;
+}
+header .contactsCenter .bookNow {
+  font-family: Lato;
+  color: #ffc61a;
+  font-size: 35.78px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
+header .contactsCenter .phoneBig {
+  display: block;
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 900;
+  padding: 0;
+}
+header .contactsCenter .website {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 19.86px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 15px;
+  display: block;
+}
+header .car {
+  position: absolute;
+  top: calc(50%);
+  left: calc(20%);
+  background-image: url("../img/Place Car Image here.png");
+  z-index: 2;
+  width: 826px;
+  height: 484px;
+}
+@media all and (max-width: 767px) {
+  header {
+    display: none;
+    display: flex;
+    height: 600px;
+    background-image: none;
+    background-color: black;
+    width: 100%;
+  }
+  header .car,
+  header .contactsCenter,
+  header .blockMenu {
+    display: none;
+  }
+  header .ya-taxi-widget {
+    position: absolute;
+    top: 200px;
+    display: block;
+    height: 50%;
+    width: 100%;
+  }
+}
+main {
+  width: 100%;
+  background-color: #ffc61a;
+}
+main .infoAndForm {
+  display: grid;
+  grid-template-columns: 558px 422px;
+  margin-top: 150px;
+  margin-left: 218px;
+  grid-column-gap: 214px;
+}
+main .infoAndForm .info {
+  width: 100%;
+}
+main .infoAndForm .info > *:not(:last-child) {
+  display: block;
+}
+main .infoAndForm .info span:nth-child(1) {
+  font-family: Lato;
+  color: #100f0f;
+  font-size: 35.02px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 35px;
+  margin-bottom: 26px;
+}
+main .infoAndForm .info span:nth-child(2) {
+  font-family: Lato;
+  color: #100f0f;
+  font-size: 48px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 57px;
+  margin-bottom: 40px;
+}
+main .infoAndForm .info p {
+  font-family: Lato;
+  color: #100f0f;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+main .infoAndForm .info a {
+  text-decoration: none;
+  display: flex;
+  width: 166px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 9px;
+}
+main .infoAndForm .info a p.buttonReadMore {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 16px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  transform: scaleY(1.7);
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+}
+main .infoAndForm .form form {
+  width: 100%;
+  margin-bottom: 80px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 77px repeat(4, 70px) 80px;
+}
+main .infoAndForm .form form div:nth-child(1) {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  height: 77px;
+  background-color: #100f0f;
+  display: flex;
+  justify-content: start;
+}
+main .infoAndForm .form form div:nth-child(1) span {
+  align-self: center;
+}
+main .infoAndForm .form form div:nth-child(1) span:nth-child(1) {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 35px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 26px;
+}
+main .infoAndForm .form form div:nth-child(1) span:nth-child(2) {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 35px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-left: 5px;
+  color: #ffc61a;
+}
+main .infoAndForm .form form div:nth-child(2) input,
+main .infoAndForm .form form div:nth-child(3) input,
+main .infoAndForm .form form div:nth-child(4) input,
+main .infoAndForm .form form div:nth-child(5) input,
+main .infoAndForm .form form div:nth-child(6) input,
+main .infoAndForm .form form div:nth-child(7) input {
+  width: 80%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #e4e4e4;
+  margin-top: 30px;
+  margin-left: 34px;
+  font-family: Lato;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+}
+main .infoAndForm .form form div:nth-child(2) input::placeholder,
+main .infoAndForm .form form div:nth-child(3) input::placeholder,
+main .infoAndForm .form form div:nth-child(4) input::placeholder,
+main .infoAndForm .form form div:nth-child(5) input::placeholder,
+main .infoAndForm .form form div:nth-child(6) input::placeholder,
+main .infoAndForm .form form div:nth-child(7) input::placeholder {
+  font-family: Lato;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+}
+main .infoAndForm .form form div:nth-child(8) {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+main .infoAndForm .form form div:nth-child(8) input {
+  width: 85%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #e4e4e4;
+  margin-top: 30px;
+  margin-left: 34px;
+  font-family: Lato;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+}
+main .infoAndForm .form form div:nth-child(8) input::placeholder {
+  font-family: Lato;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+}
+main .infoAndForm .form form div:nth-child(9) {
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+main .infoAndForm .form form div:nth-child(9) input {
+  margin: auto;
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 16px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  transform: scaleY(1.7);
+  text-transform: uppercase;
+  padding: 0;
+  background-color: #fff;
+  background-color: #000000;
+  border-radius: 9px;
+  width: 376px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+main .infoAndForm .form form div input[placeholder="Phone"],
+main .infoAndForm .form form div input[placeholder="Time"],
+main .infoAndForm .form form div input[placeholder="End"] {
+  margin-left: 10px;
+}
+@media all and (max-width: 767px) {
+  main {
+    display: flex;
+  }
+  main .infoAndForm {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  main .infoAndForm .info {
+    display: none;
+  }
+  main .infoAndForm .form {
+    width: 100%;
+  }
+  main .infoAndForm .form form {
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  main .infoAndForm .form form div:nth-child(2) input,
+  main .infoAndForm .form form div:nth-child(3) input,
+  main .infoAndForm .form form div:nth-child(4) input,
+  main .infoAndForm .form form div:nth-child(5) input,
+  main .infoAndForm .form form div:nth-child(6) input,
+  main .infoAndForm .form form div:nth-child(7) input,
+  main .infoAndForm .form form div:nth-child(8) input {
+    width: 80%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #e4e4e4;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  main .infoAndForm .form form div:last-child {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+.carOptions {
+  background-color: #ffffff;
+  border: 1px solid #f5f4f2;
+  border-top: none;
+  border-bottom: none;
+  padding-bottom: 77px;
+}
+@media all and (max-width: 767px) {
+  .carOptions {
+    display: none;
+  }
+}
+.carOptions h3 {
+  font-family: Lato;
+  color: #ffc61a;
+  font-size: 35px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+  margin-top: 63px;
+}
+.carOptions h2 {
+  font-family: Lato;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 44px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 38px;
+  display: block;
+  margin-bottom: 133px;
+}
+.carOptions .carSelectWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+.carOptions .carSelectWrapper article {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 373px;
+  height: 424px;
+  background-color: #f5f4f2;
+}
+.carOptions .carSelectWrapper article .triangle {
+  display: none;
+}
+.carOptions .carSelectWrapper article img {
+  display: none;
+}
+.carOptions .carSelectWrapper article .carSmall {
+  background-image: url("../img/carSmall.png");
+  position: absolute;
+  width: 100%;
+  height: 178px;
+  top: -80px;
+}
+.carOptions .carSelectWrapper article:hover {
+  background-color: #ffc61a;
+}
+.carOptions .carSelectWrapper article:hover .triangle {
+  display: inherit;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 74px 74px;
+  border-color: transparent transparent #1b1b1b transparent;
+  bottom: 0;
+  right: 0;
+}
+.carOptions .carSelectWrapper article:hover img {
+  display: inherit;
+  position: absolute;
+  color: black;
+  bottom: 7px;
+  right: 7px;
+  width: 28px;
+  height: 28px;
+  z-index: 3;
+}
+.carOptions .carSelectWrapper article:hover span {
+  color: #000000;
+}
+.carOptions .carSelectWrapper article:hover button {
+  background-color: #1b1b1b;
+}
+.carOptions .carSelectWrapper article:hover button p {
+  color: white;
+}
+.carOptions .carSelectWrapper article h4 {
+  font-family: Lato;
+  color: #000000;
+  font-size: 30px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 124px;
+}
+.carOptions .carSelectWrapper article p {
+  font-family: Lato;
+  color: #100f0f;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  display: block;
+  margin: 31px 35px 35px 35px;
+}
+.carOptions .carSelectWrapper article span {
+  font-family: Lato;
+  color: #ffc61a;
+  font-size: 44px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+  line-height: 38px;
+}
+.carOptions .carSelectWrapper article button {
+  border-radius: 7px;
+  background-color: #ffc61a;
+  width: 166px;
+  height: 50px;
+  outline: none;
+  border: none;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.carOptions .carSelectWrapper article button p {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 16px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  transform: scaleY(1.7);
+  text-transform: uppercase;
+  margin: 0 auto;
+  color: black;
+}
+.weDoBest {
+  background-image: url(../img/PLaceBGimage.jpg);
+  height: 753px;
+  padding-top: 80px;
+}
+@media all and (max-width: 767px) {
+  .weDoBest {
+    display: none;
+  }
+}
+.weDoBest h3 {
+  font-family: Lato;
+  font-size: 35px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  color: #ffc61a;
+}
+.weDoBest h2 {
+  font-family: Lato;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 44px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 38px;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+.weDoBest .advantagesWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 232px;
+  grid-row-gap: 84px;
+}
+.weDoBest .advantagesWrapper article {
+  display: grid;
+  grid-template-columns: 81px 366px;
+  grid-column-gap: 34px;
+}
+.weDoBest .advantagesWrapper article .circle {
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  background-color: #ffc61a;
+  display: flex;
+}
+.weDoBest .advantagesWrapper article .circle img {
+  display: block;
+  margin: auto;
+}
+.weDoBest .advantagesWrapper article .contentAdvantages h3 {
+  font-family: Lato;
+  color: #ffc61a;
+  font-size: 25.01px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: left;
+}
+.weDoBest .advantagesWrapper article .contentAdvantages p {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  padding-left: 3px;
+}
+.weDoBest .buttonAdvantages {
+  display: flex;
+  margin: auto;
+}
+.weDoBest .buttonAdvantages button {
+  border-radius: 7px;
+  background-color: #ffc61a;
+  width: 166px;
+  height: 50px;
+  outline: none;
+  border: none;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.weDoBest .buttonAdvantages button p {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 16px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  transform: scaleY(1.7);
+  text-transform: uppercase;
+  margin: 0 auto;
+  color: black;
+}
+.app {
+  height: 650px;
+  background-image: url(../img/App_Screen.png);
+  background-repeat: no-repeat;
+  background-position: right 20% bottom;
+  border: 1px solid #f5f4f2;
+  border-top: none;
+  border-bottom: none;
+}
+@media all and (max-width: 767px) {
+  .app {
+    display: none;
+  }
+}
+.app h3 {
+  font-family: Lato;
+  font-size: 35px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  color: #ffc61a;
+  margin-top: 65px;
+}
+.app h2 {
+  font-family: Lato;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 44px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 38px;
+  color: black;
+  margin-bottom: 41px;
+}
+.app .appInfo {
+  width: 440px;
+  margin-left: 330px;
+}
+.app .appInfo p:nth-child(1) {
+  font-family: Lato;
+  color: black;
+  font-size: 25.49px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.app .appInfo P:nth-child(2) {
+  font-family: Lato;
+  color: #100f0f;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  margin-bottom: 63px;
+}
+.app .appInfo div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+.app .appInfo div button {
+  width: 210px;
+  height: 65px;
+  background-color: black;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+}
+.app .appInfo div button:nth-child(1) {
+  background-image: url(../img/google_play.jpg);
+  background-position: center center;
+}
+.app .appInfo div button:nth-child(2) {
+  background-image: url(../img/app_store.jpg);
+  background-position: center center;
+}
+.reviews {
+  background-image: url(../img/faces.jpg);
+  height: 610px;
+}
+.reviews h3 {
+  font-family: Lato;
+  color: #ffc61a;
+  font-size: 35px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 110px;
+}
+.reviews h2 {
+  font-family: Lato;
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 44px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 38px;
+  margin-bottom: 105px;
+  color: #ffffff;
+}
+.reviews .reviewMessages .reviewBlocksWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+}
+.reviews .reviewMessages .reviewBlocksWrapper .reviewBlock {
+  width: 580px;
+  height: 260px;
+}
+.reviews .reviewMessages .reviewBlocksWrapper .reviewBlock:nth-child(1) {
+  justify-self: end;
+}
+.reviews .reviewMessages .reviewBlocksWrapper .reviewBlock:nth-child(2) .message .triangleMessage {
+  position: absolute;
+  bottom: -30px;
+  left: 100px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 30px 30px 0;
+  border-color: transparent black transparent;
+}
+.reviews .reviewMessages .reviewBlocksWrapper .reviewBlock:nth-child(2) .message .reviewPerson .picture {
+  background-image: url(../img/hackerman.jpg);
+}
+.reviews .reviewMessages .reviewBlocksWrapper .reviewBlock .message {
+  height: 230px;
+  background-color: black;
+  border-radius: 37px;
+  padding: 42px 69px 0 47px;
+  box-sizing: border-box;
+  position: relative;
+}
+.reviews .reviewMessages .reviewBlocksWrapper .reviewBlock .message p {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 10px;
+}
+.reviews .reviewMessages .reviewBlocksWrapper .reviewBlock .message .reviewPerson {
+  display: grid;
+  width: 230px;
+  grid-template-columns: 74px 1fr;
+  grid-column-gap: 18px;
+}
+.reviews .reviewMessages .reviewBlocksWrapper .reviewBlock .message .reviewPerson .picture {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background-image: url(../img/mon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.reviews .reviewMessages .reviewBlocksWrapper .reviewBlock .message .reviewPerson .namePerson span:nth-child(1) {
+  font-family: Lato;
+  color: #ffc61a;
+  font-size: 25px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  line-height: 28px;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 13px;
+}
+.reviews .reviewMessages .reviewBlocksWrapper .reviewBlock .message .reviewPerson .namePerson span:nth-child(2) {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-left: 9px;
+}
+.reviews .reviewMessages .reviewBlocksWrapper .reviewBlock .message .triangleMessage {
+  position: absolute;
+  bottom: -30px;
+  left: 450px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 30px 0 0;
+  border-color: black transparent transparent transparent;
+}
+@media all and (max-width: 767px) {
+  .reviews {
+    height: 500px;
+  }
+  .reviews h2 {
+    margin-bottom: 20px;
+  }
+  .reviews .reviewMessages .reviewBlocksWrapper {
+    display: flex;
+  }
+  .reviews .reviewMessages .reviewBlocksWrapper .reviewBlock:nth-child(1) {
+    margin: 0 auto;
+  }
+  .reviews .reviewMessages .reviewBlocksWrapper .reviewBlock:nth-child(2) {
+    display: none;
+  }
+}
+.callUs {
+  background-color: #ffc61a;
+}
+.callUs h3 {
+  margin-top: 73px;
+  margin-bottom: 32px;
+  font-family: Lato;
+  color: #ffc61a;
+  font-size: 35px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}
+.callUs h1 {
+  font-family: Lato;
+  color: black;
+  font-size: 75px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 75px;
+  margin-bottom: 91px;
+}
+@media all and (max-width: 767px) {
+  .callUs h3 {
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+  .callUs h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+}
+footer {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .footer {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 91px;
+  padding-top: 86px;
+}
+footer .footer .aboutCabHub h4,
+footer .footer .download h4,
+footer .footer .contact h4 {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 25px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+footer .footer .aboutCabHub .yellowStripe,
+footer .footer .download .yellowStripe,
+footer .footer .contact .yellowStripe {
+  width: 339px;
+  height: 8px;
+  background-color: #ffc61a;
+  margin-bottom: 40px;
+}
+footer .footer .aboutCabHub p,
+footer .footer .download p,
+footer .footer .contact p {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 22px;
+  display: block;
+  width: 332px;
+  margin-bottom: 39px;
+  padding-left: 8px;
+}
+footer .footer .aboutCabHub .socialIcons a,
+footer .footer .download .socialIcons a,
+footer .footer .contact .socialIcons a {
+  margin-right: 18px;
+}
+footer .footer .aboutCabHub .socialIcons a i,
+footer .footer .download .socialIcons a i,
+footer .footer .contact .socialIcons a i {
+  color: #ffc61a;
+  font-size: 22px;
+}
+footer .footer .download a:nth-of-type(1) {
+  padding-bottom: 25px;
+}
+footer .footer .download a {
+  display: block;
+  text-decoration: none;
+  position: relative;
+}
+footer .footer .download a span {
+  font-family: Lato;
+  color: #ffc61a;
+  font-size: 20px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 20px;
+}
+footer .footer .download a i {
+  color: #ffffff;
+  position: absolute;
+  top: -3px;
+  left: 150px;
+}
+footer .footer .contact .footerContactsWrapper p {
+  margin-bottom: 20px;
+  padding-left: 18px;
+  display: block;
+}
+footer .footer .contact .footerContactsWrapper p:nth-child(1):before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f279';
+  margin-right: 10px;
+}
+footer .footer .contact .footerContactsWrapper p:nth-child(2):before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f0f3';
+  margin-right: 10px;
+}
+footer .footer .contact .footerContactsWrapper p:nth-child(3):before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f4ad';
+  margin-right: 10px;
+}
+footer .footer .contact .footerContactsWrapper p:nth-child(4):before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f06e';
+  margin-right: 10px;
+}
+footer .copyRight {
+  display: flex;
+  background-color: black;
+  width: 100%;
+}
+footer .copyRight span {
+  font-family: Lato;
+  color: #ffffff;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-height: 14px;
+  font-weight: 400;
+  display: block;
+  margin: auto;
+  padding: 15px;
+}
+@media all and (max-width: 767px) {
+  footer .footer {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  footer .footer .aboutCabHub,
+  footer .footer .contact {
+    display: none;
+  }
+  footer .footer .download {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  footer .footer .download a:nth-of-type(2) {
+    display: block;
+    text-decoration: none;
+    position: relative;
+  }
+  footer .footer .download a:nth-of-type(2) i {
+    color: #ffffff;
+    position: absolute;
+    top: -3px;
+    left: 134px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
