@@ -1,0 +1,98 @@
+$colorBlue:#0081ff;
+$colorWhite:#ffffff;
+@mixin fontCommonBold{
+  font-family: Montserrat, sans-serif;
+  color:  #ffffff;
+  font-size: 34px;
+  line-height: 34px;
+  font-weight: 700;
+
+}
+@mixin  fontUpperMenu{
+  font-family: Lato, sans-serif;
+  color:  $colorWhite;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+}
+@mixin fontCursive{
+
+  font-family: 'Leckerli One', cursive;
+  color:  $colorWhite;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 30px;
+}
+@mixin fontTextCommon{
+  font-family: Lato;
+  color:  $colorWhite;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+}
+@mixin buttonClickHere {
+  display: flex;
+  width: 129px;
+  height: 36px;
+  border-radius: 20px;
+  background-color: #00aeed;
+  margin: 80px 0 0 18px;
+
+  p{
+    display: block;
+    margin:  auto;
+    @include fontTextCommon;
+    font-size: 15px;
+    line-height: 14px;
+  }
+
+  &:hover{
+    cursor:pointer;
+  }
+}
+@mixin fontBlogCommon{
+  font-family: Lato;
+  color:  $colorWhite;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+@mixin smallSquareBlog($_bgColor,$_fontColor){
+  background-color: $_bgColor;
+
+  padding: 30px 30px 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  span{
+    @include fontBlogCommon;
+    display: block;
+    color:$_fontColor;
+
+  }
+
+  h4{
+    display: block;
+    @include fontCommonBold;
+    font-weight: 900;
+    color:$_fontColor;
+    font-size: 30px;
+    line-height: 32px;
+    width: 100%;
+    text-align: center;
+  }
+  p{
+    @include fontBlogCommon;
+    display: block;
+    text-align: justify;
+    color:$_fontColor;
+  }
+}
+@mixin formInput{
+  height: 34px;
+  width: 359px;
+  outline: none;
+  border-radius: 15px;
+}

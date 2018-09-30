@@ -1,0 +1,9 @@
+@mixin class1{
+  color: white;
+}
+body {
+  color: red;
+  background-color: #fff;
+  @include class1;
+}
+
