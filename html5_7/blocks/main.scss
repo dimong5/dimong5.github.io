@@ -1,0 +1,104 @@
+.main {
+  background-color: $colorCommonGrey;
+  padding-top: 31px;
+  .carouselWrapper {
+    width: 880px;
+    margin: auto;
+    background-color: $colorCommonGrey;
+    border: 9px solid $colorCommonWhite;
+  }
+}
+
+.ourAdvantages {
+  margin-top: 31px;
+  padding: 50px 33px 50px 33px;
+  background-color: $colorCommonWhite;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 21px;
+  border-bottom: 1px solid $colorCommonGrey;
+  &_firstItem {
+    background-image: url(../img/icon-group.png);
+  }
+  &_secondItem {
+    background-image: url(../img/icon_globe.png);
+  }
+  &_thirdItem {
+    background-image: url(../img/icon-cogs.png);
+  }
+  &_fourthItem {
+    background-image: url(../img/icon-leaf.png);
+  }
+  &__advantageWrapper {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    height: 205px;
+    //align-items: flex-end;
+    background-repeat: no-repeat;
+    background-position: 45% 0%;
+    width: 210px;
+  }
+  &__heading {
+    @include fontCommon;
+    color: $colorCommonGreen;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    align-self: end;
+    margin: 0;
+  }
+  &__paragraph {
+    @include fontCommon;
+    font-size: 13px;
+    line-height: 20px;
+    color: $colorTextCommon;
+    text-align: justify;
+    align-self: end;
+    margin: 0;
+  }
+}
+
+.ourProjects {
+  background-color: $colorCommonWhite;
+  padding: 33px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 21px;
+  &__item {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+  }
+  &__linkImage {
+    padding: 4px;
+    border: 1px solid $colorCommonGrey;
+  }
+  &__image {
+    width: 200px;
+    height: 130px;
+  }
+  &__title {
+    @include fontCommon;
+    font-size: 14px;
+    line-height: 14px;
+    color: $colorProjectTitle;
+    text-transform: capitalize;
+  }
+  &__paragraph {
+    @include fontCommon;
+    line-height: 21px;
+    color: $colorTextCommon;
+    text-align: justify;
+    margin: 0;
+  }
+  &__linkDetails {
+    @include fontCommon;
+    line-height: 13px;
+    color: $colorCommonGreen;
+    justify-self: end;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+}
+

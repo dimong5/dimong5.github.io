@@ -1,0 +1,17 @@
+//@font-face {
+//  font-family: "Georgia";
+//  src: url("../fonts/georgia.woff") format("woff");
+//}
+@import "../css/variables.scss";
+@import "../blocks/header.scss";
+@import "../blocks/main.scss";
+@import "../blocks/footer.scss";
+body {
+  background-color: $colorCommonWhite;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  max-width: 990px;
+  min-width: 990px;
+}

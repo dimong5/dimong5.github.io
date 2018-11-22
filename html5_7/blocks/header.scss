@@ -1,0 +1,144 @@
+header {
+  border-top: 5px solid $colorCommonGreen;
+}
+
+.header {
+  //background-color: $colorCommonWhite;
+  width: 100%;
+  height: 135px;
+  position: relative;
+  &__logo {
+    @include fontLogo;
+    word-spacing: -6px;
+    &__firstLetter {
+      font-size: 1.4em;
+      padding: 0;
+      margin: 0;
+    }
+    &_posotion {
+      position: absolute;
+      left: 29px;
+      top: 36px;
+    }
+  }
+  &__socialWrapper {
+    width: 250px;
+    height: 50px;
+    background-color: $colorCommonGreen;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    padding: 8px 12px 9px 12px;
+    justify-content: space-between;
+    &__link {
+      text-decoration: none;
+      color: $colorCommonWhite;
+      width: 32px;
+      height: 32px;
+      background-color: black;
+      border-radius: 50%;
+      display: flex;
+      overflow: hidden;
+      &:hover {
+        background-color: $colorSocialHover;
+        color: $colorCommonWhite;
+        text-decoration: none;
+        overflow: hidden;
+      }
+      &__content {
+        margin: auto;
+      }
+    }
+    &_position {
+      position: absolute;
+      right: 30px;
+    }
+  }
+  &__singUp {
+    &__link {
+      @include fontCommon;
+      color: $colorCommonGreen;
+      text-transform: capitalize;
+      text-decoration: none;
+      &:hover {
+        color: black;
+        text-decoration: none;
+      }
+    }
+    &_position {
+      position: absolute;
+      right: 30px;
+      top: 85px;
+    }
+  }
+  &__menuAndSearchWrapper {
+    background-color: $colorCommonGreen;
+    padding: 20px 31px 20px 31px;
+    display: flex;
+    box-sizing: border-box;
+    //justify-content: space-between;
+    &__menuLinkWrapper {
+      min-width: 543px;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      margin: auto;
+      margin-left: 0;
+    }
+    &__menuLink {
+      text-decoration: none;
+      text-transform: uppercase;
+      @include fontCommon;
+      color: $colorCommonWhite;
+      line-height: 13px;
+      &:hover {
+        color: black;
+        text-decoration: none;
+      }
+    }
+    &__searchFormWrapper {
+      width: 282px;
+      margin-right: 0;
+      form {
+        margin-right: 0;
+        display: flex;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        input {
+          margin: 0;
+          padding: 5px 0 5px 0;
+          outline: none;
+        }
+        input:nth-child(1) {
+          padding-left: 9px;
+          border: transparent;
+          @include fontCommon;
+          font-size: 12px;
+          color: black;
+          width: 100%;
+          &::placeholder {
+            @include fontCommon;
+            font-size: 12px;
+            color: black;
+            text-transform: capitalize;
+          }
+        }
+        input:nth-child(2) {
+          padding-right: 5px;
+          padding-left: 5px;
+          border: transparent;
+          border-left: 1px solid black;
+          background-color: $colorCommonWhite;
+          @include fontCommon;
+          font-size: 12px;
+          color: $colorCommonGreen;
+          text-transform: uppercase;
+          &:hover {
+            color: #1e7e34;
+          }
+        }
+      }
+    }
+  }
+}
+

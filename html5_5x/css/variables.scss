@@ -1,35 +1,39 @@
-$colorBlue:#0081ff;
-$colorWhite:#ffffff;
-@mixin fontCommonBold{
+$colorBlue: #0081ff;
+$colorWhite: #ffffff;
+@mixin fontCommonBold {
   font-family: Montserrat, sans-serif;
-  color:  #ffffff;
+  color: #ffffff;
   font-size: 34px;
   line-height: 34px;
   font-weight: 700;
 
 }
-@mixin  fontUpperMenu{
+
+@mixin fontUpperMenu {
   font-family: Lato, sans-serif;
-  color:  $colorWhite;
+  color: $colorWhite;
   font-size: 15px;
   font-weight: 700;
   line-height: 15px;
 }
-@mixin fontCursive{
+
+@mixin fontCursive {
 
   font-family: 'Leckerli One', cursive;
-  color:  $colorWhite;
+  color: $colorWhite;
   font-size: 33px;
   font-weight: 400;
   line-height: 30px;
 }
-@mixin fontTextCommon{
+
+@mixin fontTextCommon {
   font-family: Lato;
-  color:  $colorWhite;
+  color: $colorWhite;
   font-size: 17px;
   font-weight: 400;
   line-height: 30px;
 }
+
 @mixin buttonClickHere {
   display: flex;
   width: 129px;
@@ -38,61 +42,74 @@ $colorWhite:#ffffff;
   background-color: #00aeed;
   margin: 80px 0 0 18px;
 
-  p{
+  p {
     display: block;
-    margin:  auto;
+    margin: auto;
     @include fontTextCommon;
     font-size: 15px;
     line-height: 14px;
   }
 
-  &:hover{
-    cursor:pointer;
+  &:hover {
+    cursor: pointer;
   }
 }
-@mixin fontBlogCommon{
+
+@mixin fontBlogCommon {
   font-family: Lato;
-  color:  $colorWhite;
+  color: $colorWhite;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
   text-align: center;
 }
 
-@mixin smallSquareBlog($_bgColor,$_fontColor){
+@mixin smallSquareBlog($_bgColor,$_fontColor) {
   background-color: $_bgColor;
 
   padding: 30px 30px 50px 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  span{
+  span {
     @include fontBlogCommon;
     display: block;
-    color:$_fontColor;
+    color: $_fontColor;
 
   }
 
-  h4{
+  h4 {
     display: block;
     @include fontCommonBold;
     font-weight: 900;
-    color:$_fontColor;
+    color: $_fontColor;
     font-size: 30px;
     line-height: 32px;
     width: 100%;
     text-align: center;
   }
-  p{
+  p {
     @include fontBlogCommon;
     display: block;
     text-align: justify;
-    color:$_fontColor;
+    color: $_fontColor;
   }
 }
-@mixin formInput{
+
+@mixin formInput {
   height: 34px;
   width: 359px;
   outline: none;
   border-radius: 15px;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    border-top: 8px solid transparent;
+    font-weight: 400;
+  }
+  100% {
+    border-top: 8px solid $colorBlue;
+    font-weight: 900;
+  }
 }

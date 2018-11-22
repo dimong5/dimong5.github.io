@@ -1,0 +1,35 @@
+$colorCommon: rgb(31, 31, 31);
+$colorCommonGreen: #81b300;
+$colorBrownLight: #3b3b3b;
+$colorBrownDark: #2e2e2e;
+$colorCommonWhite: #ffffff;
+$colorCommonGrey: #f2f2f2;
+$colorSocialHover: #00acee;
+$colorTextCommon: #888888;
+$colorProjectTitle: #444444;
+$colorTextFooter: #999999;
+$colorTextFooterHeader: #666666;
+
+
+
+@mixin fontCommon {
+  font-family: "georgia", georgia, sans-serif;
+  color: $colorCommonWhite;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+@mixin fontLogo {
+  font-family: "georgia", georgia, sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 46px;
+  color: #333333;
+  text-transform: uppercase;
+}
+@mixin footerHeader{
+  @include fontCommon;
+  color: $colorTextFooterHeader;
+  text-transform: uppercase;
+}
