@@ -78,6 +78,10 @@
       text-decoration: none;
       display: block;
       text-align: right;
+      &:hover {
+        text-decoration: none;
+        color: $colorSocialHover;
+      }
     }
   }
   &__newsLetter {
@@ -112,7 +116,7 @@
         line-height: 13px;
         outline: none;
         &:hover {
-          filter: brightness(1.5);
+          color: $colorSocialHover;
         }
       }
     }

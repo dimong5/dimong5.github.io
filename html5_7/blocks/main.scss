@@ -98,7 +98,10 @@
     color: $colorCommonGreen;
     justify-self: end;
     text-transform: capitalize;
-    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      color: $colorSocialHover;
+    }
   }
 }
 
