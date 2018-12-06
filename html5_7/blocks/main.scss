@@ -1,11 +1,14 @@
 .main {
   background-color: $colorCommonGrey;
-  padding-top: 31px;
+  //padding-top: 31px;
+  display: flex;
+  flex-direction: column;
   .carouselWrapper {
-    width: 880px;
+    miwidth: 880px;
     margin: auto;
     background-color: $colorCommonGrey;
     border: 9px solid $colorCommonWhite;
+    margin:20px;
   }
 }
 
@@ -15,6 +18,13 @@
   background-color: $colorCommonWhite;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
+  @include media-breakpoint-only(md){
+    grid-template-columns: repeat(2,1fr);
+  }
+  @include media-breakpoint-down(sm){
+    grid-template-columns: repeat(1,1fr);
+  }
   grid-column-gap: 21px;
   border-bottom: 1px solid $colorCommonGrey;
   &_firstItem {
@@ -30,13 +40,13 @@
     background-image: url(../img/icon-leaf.png);
   }
   &__advantageWrapper {
+    //justify-self: stretch;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     height: 205px;
-    //align-items: flex-end;
     background-repeat: no-repeat;
     background-position: 45% 0%;
-    width: 210px;
+    //width: 210px;
   }
   &__heading {
     @include fontCommon;
@@ -64,8 +74,17 @@
   padding: 33px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
+  @include media-breakpoint-down(md){
+    grid-template-columns: repeat(2,1fr);
+  }
+  @include media-breakpoint-down(sm){
+    grid-template-columns: repeat(1,1fr);
+  }
   grid-gap: 21px;
   &__item {
+    //width: 210px;
+    justify-self: stretch;
     display: grid;
     grid-template-rows: auto;
     grid-gap: 10px;
@@ -73,10 +92,15 @@
   &__linkImage {
     padding: 4px;
     border: 1px solid $colorCommonGrey;
+    //width: 210px;
+    //@include media-breakpoint-down(sm){
+    //  width: 100%;
+    //}
   }
   &__image {
-    width: 200px;
-    height: 130px;
+    width: 100%;
+    height: 100%;
+
   }
   &__title {
     @include fontCommon;
