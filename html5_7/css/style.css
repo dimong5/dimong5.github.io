@@ -6895,7 +6895,7 @@ header {
       width: 282px;
       margin-right: 0; }
       @media (max-width: 991.98px) {
-        .header__menuAndSearchWrapper__searchFormWrapper {
+        .header__menuAndSearchWrapper__searchFormWrapper_fullString {
           margin-top: 30px;
           flex-basis: 100%; } }
       .header__menuAndSearchWrapper__searchFormWrapper form {
@@ -6949,14 +6949,12 @@ header {
   display: flex;
   flex-direction: column; }
   .main .carouselWrapper {
-    miwidth: 880px;
-    margin: auto;
+    min-width: 880px;
     background-color: #f2f2f2;
     border: 9px solid #ffffff;
     margin: 20px; }
 
 .ourAdvantages {
-  margin-top: 31px;
   padding: 50px 33px 50px 33px;
   background-color: #ffffff;
   display: grid;
@@ -6964,10 +6962,10 @@ header {
   grid-column-gap: 21px;
   border-bottom: 1px solid #f2f2f2; }
   @media (min-width: 768px) and (max-width: 991.98px) {
-    .ourAdvantages {
+    .ourAdvantages_adoptWrap {
       grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 767.98px) {
-    .ourAdvantages {
+    .ourAdvantages_adoptWrap {
       grid-template-columns: repeat(1, 1fr); } }
   .ourAdvantages_firstItem {
     background-image: url(../img/icon-group.png); }
@@ -7015,11 +7013,11 @@ header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 21px; }
-  @media (max-width: 991.98px) {
-    .ourProjects {
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .ourProjects_adoptWrap {
       grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 767.98px) {
-    .ourProjects {
+    .ourProjects_adoptWrap {
       grid-template-columns: repeat(1, 1fr); } }
   .ourProjects__item {
     justify-self: stretch;

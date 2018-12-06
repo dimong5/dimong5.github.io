@@ -4,26 +4,25 @@
   display: flex;
   flex-direction: column;
   .carouselWrapper {
-    miwidth: 880px;
-    margin: auto;
+    min-width: 880px;
     background-color: $colorCommonGrey;
     border: 9px solid $colorCommonWhite;
-    margin:20px;
+    margin: 20px;
   }
 }
 
 .ourAdvantages {
-  margin-top: 31px;
   padding: 50px 33px 50px 33px;
   background-color: $colorCommonWhite;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
-  @include media-breakpoint-only(md){
-    grid-template-columns: repeat(2,1fr);
-  }
-  @include media-breakpoint-down(sm){
-    grid-template-columns: repeat(1,1fr);
+  &_adoptWrap {
+    @include media-breakpoint-only(md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include media-breakpoint-down(sm) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
   grid-column-gap: 21px;
   border-bottom: 1px solid $colorCommonGrey;
@@ -75,11 +74,13 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 
-  @include media-breakpoint-down(md){
-    grid-template-columns: repeat(2,1fr);
-  }
-  @include media-breakpoint-down(sm){
-    grid-template-columns: repeat(1,1fr);
+  &_adoptWrap {
+    @include media-breakpoint-only(md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include media-breakpoint-down(sm) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
   grid-gap: 21px;
   &__item {
