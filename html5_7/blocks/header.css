@@ -6,7 +6,7 @@ Error: Undefined variable: "$colorCommonGreen".
 2:   border-top: 5px solid $colorCommonGreen;
 3: }
 4: 
-5: .header {
+5: .b-header {
 6:   //background-color: $colorCommonWhite;
 7:   width: 100%;
 
@@ -67,4 +67,4 @@ C:/Ruby25-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$colorCommonGreen\".\A         on line 2 of header.scss\A \A 1: header {\A 2:   border-top: 5px solid $colorCommonGreen;\A 3: }\A 4: \A 5: .header {\A 6:   //background-color: $colorCommonWhite;\A 7:   width: 100%;"; }
+  content: "Error: Undefined variable: \"$colorCommonGreen\".\A         on line 2 of header.scss\A \A 1: header {\A 2:   border-top: 5px solid $colorCommonGreen;\A 3: }\A 4: \A 5: .b-header {\A 6:   //background-color: $colorCommonWhite;\A 7:   width: 100%;"; }

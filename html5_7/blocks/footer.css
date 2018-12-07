@@ -2,7 +2,7 @@
 Error: Undefined variable: "$colorBrownLight".
         on line 3 of footer.scss
 
-1: .footer {
+1: .b-footer {
 2:   padding: 40px 33px 40px 33px;
 3:   background-color: $colorBrownLight;
 4:   display: grid;
@@ -64,4 +64,4 @@ C:/Ruby25-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$colorBrownLight\".\A         on line 3 of footer.scss\A \A 1: .footer {\A 2:   padding: 40px 33px 40px 33px;\A 3:   background-color: $colorBrownLight;\A 4:   display: grid;\A 5:   grid-template-columns: repeat(4, 1fr);\A 6:   grid-gap: 21px;\A 7:   @include media-breakpoint-down(md){\A 8:     grid-template-columns: repeat(2,1fr);"; }
+  content: "Error: Undefined variable: \"$colorBrownLight\".\A         on line 3 of footer.scss\A \A 1: .b-footer {\A 2:   padding: 40px 33px 40px 33px;\A 3:   background-color: $colorBrownLight;\A 4:   display: grid;\A 5:   grid-template-columns: repeat(4, 1fr);\A 6:   grid-gap: 21px;\A 7:   @include media-breakpoint-down(md){\A 8:     grid-template-columns: repeat(2,1fr);"; }
