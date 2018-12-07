@@ -8,7 +8,7 @@ Error: Undefined variable: "$colorCommonGrey".
 4:   display: flex;
 5:   flex-direction: column;
 6:   .carouselWrapper {
-7:     min-width: 880px;
+7:     //min-width: 880px;
 
 Backtrace:
 main.scss:2
@@ -63,4 +63,4 @@ C:/Ruby25-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$colorCommonGrey\".\A         on line 2 of main.scss\A \A 1: .b-main {\A 2:   background-color: $colorCommonGrey;\A 3:   //padding-top: 31px;\A 4:   display: flex;\A 5:   flex-direction: column;\A 6:   .carouselWrapper {\A 7:     min-width: 880px;"; }
+  content: "Error: Undefined variable: \"$colorCommonGrey\".\A         on line 2 of main.scss\A \A 1: .b-main {\A 2:   background-color: $colorCommonGrey;\A 3:   //padding-top: 31px;\A 4:   display: flex;\A 5:   flex-direction: column;\A 6:   .carouselWrapper {\A 7:     //min-width: 880px;"; }

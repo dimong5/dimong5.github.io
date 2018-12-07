@@ -6949,7 +6949,6 @@ header {
   display: flex;
   flex-direction: column; }
   .b-main .carouselWrapper {
-    min-width: 880px;
     background-color: #f2f2f2;
     border: 9px solid #ffffff;
     margin: 20px; }
